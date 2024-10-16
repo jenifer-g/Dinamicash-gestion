@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    
+}
+.menu-bar{
+    /* z-index: 1000; */
+    position: relative;
+    z-index: 4;
+}
+
+
+.menu-bar{
+    background-color: #5684c9;
+    color: white;
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 13px;
+
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+
+}
+.active, .menu-bar ul li:hover{
+    background-color: rgb(97, 128, 231);
+    border-radius: 3px;
+
+}
+
+.menu-bar .fa{
+    margin-right: 8px;
+
+}
+
+
+
+
+
+.seccion-login{
+    /* display: flex; */
+    
+    /* width: 430px;
+    height: 450px; */
+    height: 100vh;
+    width: 40%;
+    
+    margin: 0 auto;
+    margin-top: 50px;
+    /* background-color: yellow; */
+    /* cuando se aplique un display flex para que no se comporte como row, que es por defecto se coloca column para que se vaya hacia abajo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    
+}
+.seccion-login form{
+    padding: 40px 20px;
+    background-color: #1e3c6d;
+    backdrop-filter: blur(100%);
+    width: 100%;
+    border-radius: 25px;
+}
+.seccion-login form .inputs{
+    padding-bottom: 40px;
+}
+.seccion-login form .inputs label{
+    color: white;
+}
+
+form .inputs{
+    display: flex;
+    flex-direction: column;
+}
+form .inputs input{
+    width: 100%;
+    height: 35px;
+    /* height: 35px; */
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.521);
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    /* padding-left: 12px; */
+   
+}
+.seccion-login form .titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.seccion-login form .titulo .linea{
+    width: 55px;
+    height: 5px;
+    background-color: white;
+}
+.seccion-login form .titulo h1{
+    color: white;
+}
+
+.seccion-login form .boton-cont{
+    width: 100%;
+    text-align: center;
+}
+.seccion-login form .boton{
+    border: none;
+    width: 130px;
+    height: 40px;
+    border-radius: 13px;
+    background-color: #5993b4;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 2px 4px 3px rgb(56, 56, 56);
+    
+
+}
+.seccion-login form .registrarse{
+    margin-top: 20px;
+    
+}
+.seccion-login form .registrarse p{
+    text-align: center;
+    color: white;
+}
+.seccion-login form .registrarse a{
+    color:#5993b4;
+    text-decoration: none;
+    
+}
