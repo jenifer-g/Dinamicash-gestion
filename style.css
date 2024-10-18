@@ -1,0 +1,103 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar navbar-expand-lg bg-body-tertiary{
+    background-color: #5684c9 ;
+}
+
+nav i{
+    background-color: #5684c9 ;
+
+}
+
+
+.nombreLogo{
+    font-size: 20px;
+    color:white;
+    font-style: inherit;
+}
+
+.container-fluid img{
+    width: 15%;
+    height: 15%;
+    overflow: hidden;
+    /* background-color: yellow; */
+    margin-right: 0px;
+}
+
+.container-fluid{
+    background-color: #5684c9 ;
+    color: white;
+
+}
+
+.navbar-brand{
+
+    margin: 10px;
+    /* background-color: red; */
+    margin-right: -100px;
+    padding-right: -100px;
+    padding-left: 100px;
+}
+
+
+
+.container {
+    /* position: relative; */
+    height: 100vh;
+    overflow: hidden;
+    /* z-index: 1; */
+}
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(imagenes/financiera.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.3);
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.content {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+}
+.trophy {margin-top: -15%;
+    padding: auto;
+    font-size: 1px;
+    z-index: 2;
+    /* box-sizing: border-box; */
+}
+
+.trophy img{
+    height: 100px;  
+    width: 150px;
+}
+h1 {
+    font-size: 28px;
+    max-width:500px;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 18px;
+    max-width: 600px;
+}
+
